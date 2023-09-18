@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email   ticketing@aerotrav.com</title>
+</head>
+<body>
+    
+
+
+    <section class="section section-contact">
+        <div class="container">
+          <h2 class="common-heading">Contact Us</h2>
+        </div>
+  
+        <div class="section-contact-main contact-container">
+          <form  action="https://formspree.io/f/mpzgdvad"
+          method="POST">
+            <div class="">
+              <div>
+                <label for="username"></label>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  id="username"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div>
+                <label for="email"></label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="demo@mail.com"
+                  id="email"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+            </div>
+  
+            <div>
+              <label for="subject"></label>
+              <input
+                type="text"
+                name="subject"
+                placeholder="subject"
+                id="subject"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div>
+              <label for="textarea"></label>
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+                autocomplete="off"
+                placeholder="Write your message"
+                required
+              ></textarea>
+            </div>
+  
+            <div>
+              <input
+                type="submit"
+                name="submit"
+                id="submit"
+                class="btn"
+                value="send message"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+  
+    
+<!-- <script>
+    document.getElementById("emailForm").addEventListener("submit", function(event) {
+        // Perform any client-side validation here
+        // Example: Check if required fields are filled in
+    
+        // Display a confirmation message
+        alert("Email sent successfully!");
+    });
+</script> -->
+</body>
+</html>
